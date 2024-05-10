@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+
+        <!-- title and favicon  -->
+        <title>Tea hub coffee shop</title>
+        <link rel="shortcut icon" href="Resources/img/logo.png" type="image/x-icon">
+
+        <!-- fontawesome -->
+        <link rel="stylesheet" href="Resources/fontawesome-free-6.5.1-web/css/all.min.css">
+        <link rel="stylesheet" href="Resources/fontawesome-free-6.5.1-web/css/all.css">
+
+        <!-- cdn links -->
+
+
+        <!-- css file -->
+        <link rel="stylesheet" href="Resources/css_files/main_style.css">
+        <link rel="stylesheet" href="Resources/css_files/animation.css">
+        <link rel="stylesheet" href="Resources/css_files/response.css">
+    </head>
+    <body>
+
+        <!-- page loader -->
+        <div id="loader"></div>
+        
+        <!-- banner section  -->
+        <section class="banner">
+
+            <!-- navigation section  -->
+            <section class="navigation">
+                <div class="web_name">
+                    <a href="homepage.html"><h1>Tea Hub</h1></a>
+                </div>
+    
+                <div class="nav_link">
+                    <ul>
+                        <li><a href="homepage.html">Home</a></li>
+                        <li><a class="active" href="about.html">About</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    <i class="fas fa-bars" id="menu_bar" style="font-size:25px; color: #fff;" onclick="open_nav()"></i>
+                </div>
+            </section>
+
+            <!-- side navigation bar -->
+            <section class="side_nav_bar">
+                <div class="side_nav_link">
+                    <i class="fas fa-xmark" id="xmark" style="font-size:25px;" onclick="close_nav()"></i>
+                    <a href="homepage.html">Home</a>
+                    <a class="active" href="about.html">About</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="order.html">Order</a>
+                </div>
+
+                <div class="social_links">
+                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </section>
+
+            <div class="about_banner">
+                <h1>About us</h1>
+            </div>
+        </section>
+
+        <!-- about section -->
+        <section class="about">
+            <h1>About us</h1>
+            <center><h2> Serving Coffee Since 2010</h2></center>
+            <div class="about_row">
+                <div class="about_content">
+                    <h1>Our Story</h1>
+                    <h4>Takimata sed vero vero no sit sed, justo clita duo no duo amet et, 
+                        nonumy kasd sed dolor eos diam lorem eirmod. Amet sit </h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, dicta repudiandae. Necessitatibus quod cupiditate reiciendis 
+                        beatae ea animi, eligendi aliquam, temporibus magnam ad iusto repellendus ut asperiores alias quis totam.</p>
+                </div>
+                
+
+                <div class="about_content">
+                    <img src="Resources/img/about.png" width="100%">
+                </div>
+
+                <div class="about_content">
+                    <h1>Our Mission</h1>
+                    <h4>Takimata sed vero vero no sit sed, justo clita duo no duo amet et, 
+                        nonumy kasd sed dolor eos diam lorem eirmod. Amet sit </h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, dicta repudiandae. Necessitatibus quod cupiditate reiciendis 
+                        beatae ea animi, eligendi aliquam, temporibus magnam ad iusto repellendus ut asperiores alias quis totam.</p>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- quick point section  -->
+        <section class="short">
+            <div class="short_wrapper">
+                <div class="short_box">
+                    <i class="fas fa-user-tie" style="color: #FFD865; font-size: 28px;"></i>
+                    <h3>Qualified Staff</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolor aspernatur saepe quasi fuga aliquid iste.</p>
+                </div>
+                <div class="short_box">
+                    <i class="fas fa-cookie" style="color: #FFD865; font-size: 28px;"></i>
+                    <h3>nice Breakfast</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolor aspernatur saepe quasi fuga aliquid iste.</p>
+                </div>
+            </div>
+            <div class="short_wrapper">
+                <div class="short_box">
+                    <i class="fas fa-coffee" style="color: #FFD865; font-size: 28px;"></i>
+                    <h3>Healthy Coffee</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolor aspernatur saepe quasi fuga aliquid iste.</p>
+                </div>
+                <div class="short_box">
+                    <i class="fas fa-bowl-rice" style="color: #FFD865; font-size: 28px;"></i>
+                    <h3>Nice Lunches</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolor aspernatur saepe quasi fuga aliquid iste.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- gallery section -->
+        <section class="gallery">
+            <h1>Our Gallery</h1>
+            <div class="gallery_wrapper">
+                <div class="gallery_box">
+                    <img src="Resources/img/gallery1.png" width="100%">
+                </div>
+
+                <div class="gallery_box">
+                    <img src="Resources/img/gallery2.png" width="100%">
+                </div>
+            </div>
+            <div class="gallery_wrapper">
+                <div class="gallery_box">
+                    <img src="Resources/img/gallery3.png" width="100%">
+                </div>
+
+                <div class="gallery_box">
+                    <img src="Resources/img/gallery4.png" width="100%">
+                </div>
+            </div>
+        </section>
+
+        <!-- team section -->
+        <section class="team">
+            <h1>Our Team</h1>
+            <div class="team_wrapper">
+                <div class="team_box">
+                    <img src="Resources/img/team-1.jpg" width="100%">
+                    <h3>John Akon</h3>
+                    <h3>CEO</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum aliquam 
+                        unde sunt sed quibusdam, repellat laudantium quod hic ad eum 
+                        ut impedit dicta! Voluptas facilis eum beatae, vero nemo velit.</p>
+                    <div class="social_links">
+                        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="team_box">
+                    <img src="Resources/img/team-2.jpg" width="100%">
+                    <h3>Gift Micheal</h3>
+                    <h3>Manager</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum aliquam 
+                        unde sunt sed quibusdam, repellat laudantium quod hic ad eum 
+                        ut impedit dicta! Voluptas facilis eum beatae, vero nemo velit.</p>
+                    <div class="social_links">
+                        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- back to top button -->
+        <a href="#"><div class="back_top"><i class="fas fa-arrow-up"></i></div></a>
+
+        <!-- footer section -->
+        <section class="footer">
+            <div class="footer_wrapper">
+                <div class="footer_row">
+                    <div class="description">
+                        <a href="homepage.html" class="footer_web_name"><h4>Tea Hub</h4></a>
+                        <p style="color: #fff;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque mollitia natus eveniet eligendi ducimus tempora, exercitationem 
+                        eaque labore iusto consectetur culpa ad qui quis earum reiciendis, cupiditate.....</p>
+                        <div style="display: flex; ">
+                            <div class="link_btn">
+                                <button><a href="about.html">More...</a></button>
+                            </div>
+                            <div class="link_btn"style="padding: 0 10px;">
+                                <button><a href="order.html">Order Now!</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer_contact">
+                        <div>
+                            <h3>Contact us</h3>
+                            <p>Uyo, Akwa Ibom Nigeria</p>
+                            <p>+123-456-7890</p>
+                            <p>coffee@email.com</p>
+                            <div class="social_links">
+                                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="privacy_policy">
+                    <h4><i class="far fa-copyright"></i> copyright Tea Hub. All Rights Reserved</h4>
+                    <h4>Developed by</h4> <h4><b><u>Alex, Diamond Victor</u></b></h4>
+                </div>
+            </div>
+        </section>
+
+        <script src="Resources/js_files/main.js"></script>
+    </body>
+</html>
